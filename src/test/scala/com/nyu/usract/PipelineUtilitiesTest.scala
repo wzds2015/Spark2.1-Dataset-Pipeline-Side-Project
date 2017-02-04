@@ -1,4 +1,4 @@
-package com.yashi.usract
+package com.nyu.usract
 
 import java.nio.file.Paths
 

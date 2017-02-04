@@ -46,7 +46,7 @@ if proc != 0:
     exit(1)
 
 ############ Step 5 run program
-data_dir = "/Users/admin/Documents/Study/NYU_Life/Work/Jobs/CS/Yashi/OC/data_engineer_wenliang/data/"
+data_dir = "/Users/admin/Documents/Study/data/"
 input_file = data_dir + "input_file.csv.gz"
 wall_off_file = data_dir + "walled_off_segments.txt"
 sparse_flag = "flase"

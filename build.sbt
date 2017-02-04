@@ -1,4 +1,4 @@
-organization := "com.yashi"
+organization := "com.nyu"
 
 name := "user-activity-data-pipeline"
 
@@ -45,4 +45,4 @@ assemblyMergeStrategy in assembly := {
   case _ => MergeStrategy.first
 }
 
-mainClass in assembly := Some("com.yashi.usract.UserActivityPipeline")
+mainClass in assembly := Some("com.nyu.usract.UserActivityPipeline")

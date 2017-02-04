@@ -1,4 +1,4 @@
-package com.yashi.usract
+package com.nyu.usract
 
 import org.apache.spark.sql.Row
 import org.joda.time._

@@ -1,4 +1,4 @@
-package com.yashi.usract
+package com.nyu.usract
 
 /**
   * Created by Wenliang Zhao on 1/31/17.

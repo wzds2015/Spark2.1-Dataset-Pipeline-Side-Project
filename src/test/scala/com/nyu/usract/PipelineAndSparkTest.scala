@@ -1,4 +1,4 @@
-package com.yashi.usract
+package com.nyu.usract
 
 import com.holdenkarau.spark.testing.{DataFrameSuiteBase, DatasetSuiteBase}
 import org.scalatest.FunSuite
