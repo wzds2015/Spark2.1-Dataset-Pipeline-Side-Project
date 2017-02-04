@@ -1,0 +1,36 @@
+.class
+*.log
+*.conf
+
+# sbt specific
+.cache
+.history
+.lib/
+target/
+project/target/
+project/project/target/
+
+.DS_Store
+
+metastore_db/
+
+# for those who have not seen the light
+.idea/
+
+data
+
+spark-warehouse/
+
+# Scala-IDE specific
+.scala_dependencies
+.worksheet
+
+
+# Emacs
+#.#*
+#*~
+
+# Ensime
+#.ensime
+#.ensime_cache
+
