@@ -2,7 +2,7 @@
 
 #### Wenliang Zhao (wz927@nyu.edu), Courant Institute
 
-## Pipeline
+## Pipeline (NOTE: to use the pivot api would lead to much less engineering, here I just want to test Spark2.1 and Dataset features)
 1. Data reader:
 	I use Databricks [[spark-csv](https://github.com/databricks/spark-csv)] to read tsv data (specify delimiter as 't'). **NOTICE:** to read gzip file, the suffix of input file must be *.csv.gz. I read input data into Spark dataset [[Spark-2.1.0](http://spark.apache.org/releases/spark-release-2-1-0.html) structure with 3 columns - timestamp(String), user_id(String), segments(String); also I read wall off file into a set
 	Result: Dataset[OriginalData] & wallOffSet (Set[String])
